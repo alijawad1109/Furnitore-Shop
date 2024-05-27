@@ -1,0 +1,34 @@
+.product_details{
+    margin-top: 50px;
+    
+}
+.product_details span{
+    color: chocolate;
+    font-weight: 500;
+}
+.active__tab{
+    font-weight: 600;
+}
+.review__wrapper span{
+    color: chocolate;
+}
+.review__from{
+    width: 70%;
+    margin:  30px auto;
+}
+.form__group input{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    padding: 8px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form__group textarea{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 10px;
+}

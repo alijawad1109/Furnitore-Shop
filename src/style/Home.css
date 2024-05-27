@@ -1,0 +1,50 @@
+.hero__section{
+     background: var(--hero-bg);
+}
+.hero__section h2{
+    color: var(--primary-color);
+    /* font-size: 1.5rem; */
+    line-height: 40px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.hero__section p{
+    color: var(--primary-color);
+    line-height: 28px;
+}
+.buy__btn{
+    background: var(--primary-color);
+    padding: 7px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.timer__count{
+    background: var(--primary-color);
+    /* height: 350px; */
+}
+.timer_img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: cover;
+    margin-top: 30px;
+    justify-content: center;
+}
+.store__btn{
+    background-color: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+@media screen and (max-width:992px){
+    .hero__content h2{
+        font-size: 2rem;
+    }
+    
+}

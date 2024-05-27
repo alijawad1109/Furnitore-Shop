@@ -1,0 +1,17 @@
+.filter__wadget select{
+    padding: 8px 20px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.search__box{
+    padding: 8px 10px;
+    border: var(--primary-color) !important;
+}
